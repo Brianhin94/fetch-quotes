@@ -1,13 +1,10 @@
 var API_URL = 'http://quotes.rest/qod.json'
 
 document.addEventListener('DOMContentLoaded', function(){
-  console.log('hello')
   document.getElementById('new-button').addEventListener('click', getQuote)
 })
 
 function getQuote(){
-  console.log('calling API:', API_URL)
-
   fetch(API_URL, {
     content: ''
   })
