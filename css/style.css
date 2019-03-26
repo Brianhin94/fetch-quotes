@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-size: 100% 100vh;
+}
+
+.result-box {
+  background-color: #f3e3e4;
+  color: #336699;
+  min-width: 500px;
+  min-height: 225px;
+  background-color: lightyellow;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 100px;
+  border: 1px solid black;
+}
+
+.new-button {
+  display: inline-block;
+  min-width: 100px;
+  padding: 25px;
+  font-size: 36px;
+  color: rebeccapurple;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.new-button:hover {
+  min-width: 110px;
+  background-color: rebeccapurple;
+  color: hotpink;
+  border: 1px solid hotpink;
+  cursor: pointer;
+  transform: rotate(180deg);
+  transition: transform 0.7s;
+}
