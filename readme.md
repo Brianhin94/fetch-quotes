@@ -10,7 +10,17 @@ We're going to use JavaScript to make a webpage that displays a random quote. We
 
 ## Gathering Quotes
 
-Your instructor will provide an appropriate API. Stay tuned!
+There are two possibilities we can use to get random quotes:
+* Random Funny Dev Quotes by StormConsultancy (check out the [documentation](http://quotes.stormconsultancy.co.uk/api))
+* Random Famous Quotes by Forismatic (check out the [documentation](https://forismatic.com/en/api/))
+```
+// Random Funny Dev Quotes
+http://quotes.stormconsultancy.co.uk/random.json
+// Random famous quote
+https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json
+```
+
+Take one of those links and paste it into your browser. Check if you're getting results and see how they are coming back!
 
 ## Requirements
 
